@@ -1,12 +1,12 @@
 from random import choice
 
 ####
-d = 3 # do not change
+d = 2 # do not change
 n = 500
-start = "long I stood"
+start = "According to all known"
 ####
 
-with open("poetry.txt") as f:
+with open("script.txt") as f:
   poems = f.readlines()
   for i, item in enumerate(poems): poems[i] = item.split()
 
